@@ -1,0 +1,18 @@
+.logo {
+  grid-area: l;
+  background-color: #ec5656;
+ } 
+ .logo img{
+  width: 150px;
+  height: 150px;
+  align-content: left;
+ } 
+
+.header {
+  grid-area: h;
+  background-color:#ec5656;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding-right: 20px;
+  font-size: xx-large;
+}
