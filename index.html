@@ -4,10 +4,12 @@
     <head>
         <title>Красная книга России</title>
         <meta charset='utf-8'>
+        <script src="js/menu.js"></script>
         <link href="style/styleheader.css" rel="stylesheet">
 		<link href="style/stylebody.css" rel="stylesheet">
-		<link href="style/stylefurther.css" rel="stylesheet">
+		<link href="style/stylefooter.css" rel="stylesheet">
 		<link href="style/fontstyle.css" rel="stylesheet">
+        <link href="style/menu.css" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
@@ -22,33 +24,26 @@
                 <h1>Красная книга Российской Федерации </h1>
             </div> 
         
-            <div class="aside">
-                <!-- <div class="menu">
-                     <ul class="topmenu">
-                         <li><a href="" class="down" font-size: 40>☰МЕНЮ</a> -->
-                           <ul>
-                             <li><a href="pages/animals.html">Животные</a></li>
-                             <li><a href="pages/fish.html">Рыбы</a></li>
-                             <li><a href="pages/Plants.html"> Растения</a></li>
-                           </ul>
-                         <!--</li>
-                     </ul>
-                 </div>-->
-             </div> 
+        <div class="aside">
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">☰МЕНЮ</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="pages/animals.html">Животные</a>
+              <a href="pages/fish.html">Рыбы</a>
+              <a href="pages/Plants.html">Растения</a>
+            </div>
+          </div>
          
-
-            <div class="box">
+        <div class="box">
           
-                    <article>
-                        <h1> Красная книга</h1>
+            <article>
+                <h1> Красная книга</h1>
                     </article>
 
-                    <article>
+                 <article>
                         <img src="img/all.jpeg" alt="ret" width="1080" height="720" title="ret" class="round">
-                        <p>Красная книга Российской Федерации — основной государственный документ, учреждённый в целях выявления редких и находящихся под угрозой исчезновения диких животных, дикорастущих растений и грибов, а также некоторых подвидов и локальных популяций
-                            <a href="#top">вверх</a>
-                        </p>
-                    </article>
+                        <p>Красная книга Российской Федерации — основной государственный документ, учреждённый в целях выявления редких и находящихся под угрозой исчезновения диких животных, дикорастущих растений и грибов, а также некоторых подвидов и локальных популяций</p>
+                             </article>
                     
 
             </div> 
@@ -56,7 +51,7 @@
             
 
         <div class="footer">
-            <p>подвал</p>
+            <p>Все данные этого сайта были взяты из <a href="https://redbookrf.ru/">источников</a></p>
         </div>
         
     </body>
