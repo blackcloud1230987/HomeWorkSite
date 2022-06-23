@@ -3,10 +3,12 @@
     <head>
         <title>Красная книга России</title>
         <meta charset='utf-8'>
+        <script src="../js/menu.js"></script>
         <link href="../style/styleheader.css" rel="stylesheet">
 		<link href="../style/stylebody.css" rel="stylesheet">
 		<link href="../style/stylefooter.css" rel="stylesheet">
 		<link href="../style/fontstyle.css" rel="stylesheet">
+        <link href="../style/menu.css" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -22,20 +24,15 @@
             </div> 
         
             <div class="aside">
-                <!-- <div class="menu">
-                     <ul class="topmenu">
-                         <li><a href="" class="down" font-size: 40>☰МЕНЮ</a> -->
-                           <ul>
-                             <li><a href="#zayaz">Заяц-русак</a></li>
-                             <li><a href="#krisa">Ночница Брандта</a></li>
-                             <li><a href="#gornostay">Горностай</a></li>
-                             <li><a href="../index.html">Главная</a></li>
-                           </ul>
-                         <!--</li>
-                     </ul>
-                 </div>-->
-             </div> 
-         
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">☰МЕНЮ</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#zayaz">Заяц-русак</a>
+                      <a href="#krisa">Ночница Брандта</a>
+                      <a href="#gornostay">Горностай</a>
+                      <a href="../index.html">Главная</a>
+                    </div>
+                  </div>
 
             <div class="box">
           
