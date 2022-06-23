@@ -1,0 +1,44 @@
+/* кнопочка раскрывающего списка */
+.dropbtn {
+    background-color: #ec5656;;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Кнопочка раскрывающегося списка при наведении и фокусе */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(247, 158, 158);
+}
+
+/* выставляю позицию выпадающего списка*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* скрываю (по умолчанию) тобиш none, выпадающий список */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(247, 158, 158);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* при наведении изменяю цвет ссылок */
+.dropdown-content a:hover {background-color: #ec5656}
+
+/*Показываю раскрывающееся меню */
+.show {display:block;}
